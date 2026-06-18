@@ -1,0 +1,128 @@
+.contact-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 16px 80px;
+}
+
+.contact-hero {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 28px;
+  background: linear-gradient(180deg, #fff9f1 0%, #f8eee4 100%);
+  border: 1px solid #e6d3b7;
+  border-radius: 28px;
+  padding: 40px;
+  box-shadow: 0 30px 60px rgba(87, 43, 9, 0.08);
+}
+
+.eyebrow {
+  display: inline-block;
+  margin-bottom: 18px;
+  color: #8b4513;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.contact-hero h1 {
+  margin: 0 0 20px;
+  color: #5b3317;
+  font-size: clamp(2.4rem, 3.6vw, 3.4rem);
+}
+
+.contact-hero p {
+  color: #5f4732;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.contact-info-card {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 28px;
+  border: 1px solid #e9d7bc;
+  box-shadow: 0 18px 34px rgba(88, 43, 8, 0.08);
+}
+
+.contact-info-card h2 {
+  margin-top: 0;
+  color: #5b3317;
+}
+
+
+.contact-info-card a {
+  color: #8b4513;
+  font-weight: 700;
+}
+
+.contact-form-section {
+  margin-top: 40px;
+}
+
+.contact-form-card {
+  background: #fff8f0;
+  border: 1px solid #e7d4ba;
+  border-radius: 28px;
+  padding: 36px;
+  box-shadow: 0 28px 50px rgba(90, 42, 12, 0.09);
+}
+
+.contact-form-card h2 {
+  margin-top: 0;
+  color: #5b3317;
+}
+
+.contact-form-card p {
+  color: #5f4732;
+  line-height: 1.85;
+  margin-bottom: 24px;
+}
+
+.contact-form {
+  display: grid;
+  gap: 18px;
+}
+
+.contact-form label {
+  font-weight: 600;
+  color: #5b3317;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 16px;
+  border: 1px solid #d8c3a5;
+  background: #fff;
+  color: #5f4732;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-submit {
+  width: fit-content;
+  padding: 14px 28px;
+  border-radius: 999px;
+  border: none;
+  background: #8b4513;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.contact-submit:hover {
+  background: #6f3512;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 860px) {
+  .contact-hero {
+    grid-template-columns: 1fr;
+  }
+}

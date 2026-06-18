@@ -1,0 +1,10 @@
+.navigation ul {
+  display: flex;
+  gap: 12px;
+  padding: 0;
+  list-style: none;
+}
+.navigation a {
+  color: #ffffff;
+  text-decoration: none;
+}

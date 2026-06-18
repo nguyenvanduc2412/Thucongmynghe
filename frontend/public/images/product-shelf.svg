@@ -1,0 +1,22 @@
+<svg viewBox="0 0 300 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shelf" x1="0%" y1="0%" x2="100%">
+      <stop offset="0%" style="stop-color:#b8956a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b6f47;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Left side -->
+  <rect x="40" y="50" width="14" height="180" rx="2" fill="#6b5344" />
+  <!-- Right side -->
+  <rect x="246" y="50" width="14" height="180" rx="2" fill="#6b5344" />
+  <!-- Shelf 1 -->
+  <rect x="40" y="80" width="220" height="12" rx="2" fill="url(#shelf)" />
+  <!-- Shelf 2 -->
+  <rect x="40" y="140" width="220" height="12" rx="2" fill="url(#shelf)" />
+  <!-- Shelf 3 -->
+  <rect x="40" y="200" width="220" height="12" rx="2" fill="url(#shelf)" />
+  <!-- Decorative items on shelves -->
+  <circle cx="80" cy="75" r="8" fill="#a0826d" />
+  <rect x="120" y="130" width="20" height="20" rx="2" fill="#9a7d66" />
+  <circle cx="220" cy="190" r="8" fill="#b8956a" />
+</svg>
