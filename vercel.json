@@ -1,5 +1,4 @@
 {
   "buildCommand": "cd frontend && NODE_OPTIONS=--openssl-legacy-provider npm run build",
-  "outputDirectory": "frontend/build",
-  "installCommand": "cd frontend && npm install"
+  "outputDirectory": "frontend/build"
 }
