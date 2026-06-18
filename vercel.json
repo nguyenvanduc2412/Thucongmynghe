@@ -1,4 +1,12 @@
 {
-  "buildCommand": "cd frontend && NODE_OPTIONS=--openssl-legacy-provider npm run build",
-  "outputDirectory": "frontend/build"
+  "builds": [
+    {
+      "src": "frontend/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build",
+        "buildCommand": "NODE_OPTIONS=--openssl-legacy-provider npm run build"
+      }
+    }
+  ]
 }
